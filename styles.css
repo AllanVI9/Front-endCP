@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+header {
+  height: 100px;
+  background: rgb(138, 6, 6);
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #00000073;
+}
+
+header h1 {
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+aside input[type="text"] {
+  border:1px solid rgb(138, 6, 6);
+  height: 20px;
+  width: 100%;
+  margin: 20px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+figure {
+  position: relative;
+  width: 780px;
+  height: 300px;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background: rgb(138, 6, 6);
+  border-bottom: 2px solid #00000073;
+}
+
+figure figcaption p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+main section {
+  margin: 10px;
+}
+
+details summary {
+  margin: 0px 0px 10px 0px;
+  background-color: rgb(138, 6, 6);
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+footer {
+  background: rgb(138, 6, 6);
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.title {
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
